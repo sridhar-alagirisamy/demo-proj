@@ -1,6 +1,6 @@
 {
   "name": "demo-proj",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "demo",
   "main": "index.js",
   "scripts": {
