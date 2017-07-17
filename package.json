@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     
-	  "test": "dir /b *.textfiles.txt",
+	  "test": "dir /b *.ts>textfiles.txt",
 	  "tsc": "tsc @textfiles.txt",
-	  "prepublish": "npm run complier && npm run tsc"
+	  "prepublish": "npm run test && npm run tsc"
   },
   "repository": {
     "type": "git",
